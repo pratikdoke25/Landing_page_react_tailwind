@@ -2,7 +2,7 @@
 import './style/style.css'
 const Hero = () => {
   return (
-    <div className="container px-28 py-5 bg-center  bg-cover min-h-screen min-w-full" style={{ backgroundImage: `url('./src/components/image/Image.png')` }}>
+    <div className="container px-28 py-5 bg-center  bg-cover min-h-screen min-w-full" style={{ backgroundImage: `url('./src/components/image/image.png')` }}>
       <div>
         <nav className="flex items-center">
           <img src="./src/components/image/logo.png" alt="Logo" className="w-40 cursor-pointer" />
