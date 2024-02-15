@@ -1,4 +1,6 @@
-
+import Resto1 from './Image/resto.jpg'
+import Resto2 from './Image/resto.jpg'
+import Shop from './Image/shop.jpg'
 
 const FeaturesSection = () => {
   return (
@@ -9,17 +11,17 @@ const FeaturesSection = () => {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <FeatureCard
-            icon="src\assets\images\shop.jpg"
+            icon={Resto1}
             title="Expertise"
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet mauris vel nisi gravida vulputate."
           />
           <FeatureCard
-            icon="src\assets\images\resto2.jpg"
+            icon={Resto2}
             title="Quality"
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet mauris vel nisi gravida vulputate."
           />
           <FeatureCard
-            icon="src\assets\images\resto.jpg"
+            icon={Shop}
             title="Reliability"
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet mauris vel nisi gravida vulputate."
           />
